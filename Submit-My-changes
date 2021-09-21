@@ -1,0 +1,47 @@
+Microsoft Windows [Version 10.0.19043.1237]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar Ridwan Sidik>git init
+Initialized empty Git repository in C:/Users/Fajar Ridwan.FAJAR/Documents/Skilvul/git-basic/Fajar Ridwan Sidik/.git/
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar Ridwan Sidik>git remote add fajar-ridwan https://github.com/impactbyte/tech4impact-students-bio.git
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar Ridwan Sidik>copy con Fajar-ridwan-sidik.md
++Nama Lengkap : Fajar Ridwan Sidik
++Umur : 22 tahun
++Pesan yang ingin disampaikan : ga ada
+^Z
+        1 file(s) copied.
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar Ridwan Sidik>git add Fajar-ridwan-sidik.md
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar Ridwan Sidik>git commit -m "fajar-ridwan sidik"
+[master (root-commit) 34bb99e] fajar-ridwan sidik
+ 1 file changed, 3 insertions(+)
+ create mode 100644 Fajar-ridwan-sidik.md
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar Ridwan Sidik>git push -u fajar-ridwan master
+remote: Permission to impactbyte/tech4impact-students-bio.git denied to Fajar7574.
+fatal: unable to access 'https://github.com/impactbyte/tech4impact-students-bio.git/': The requested URL returned error: 403
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar Ridwan Sidik>git push -u fajar-ridwan master
+remote: Permission to impactbyte/tech4impact-students-bio.git denied to Fajar7574.
+fatal: unable to access 'https://github.com/impactbyte/tech4impact-students-bio.git/': The requested URL returned error: 403
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar Ridwan Sidik>git push -u fajar-ridwan master
+remote: Permission to impactbyte/tech4impact-students-bio.git denied to Fajar7574.
+fatal: unable to access 'https://github.com/impactbyte/tech4impact-students-bio.git/': The requested URL returned error: 403
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar Ridwan Sidik>git config --global user.name "Fajar7574"
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar Ridwan Sidik>git config --global user.name "16017337.fajar.ridwan@gmail.com"
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar Ridwan Sidik> Permission git push -u fajar-ridwan master
+'Permission' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar Ridwan Sidik>git push -u fajar-ridwan master
+remote: Permission to impactbyte/tech4impact-students-bio.git denied to Fajar7574.
+fatal: unable to access 'https://github.com/impactbyte/tech4impact-students-bio.git/': The requested URL returned error: 403
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar Ridwan Sidik>
