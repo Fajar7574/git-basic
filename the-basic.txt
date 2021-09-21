@@ -1,0 +1,156 @@
+Microsoft Windows [Version 10.0.19043.1237]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul>git config --global user.name "Fajar7574"
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul>git config --global user.email 16017337.fajar.ridwan@gmail.com
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul>git init git-basic
+Initialized empty Git repository in C:/Users/Fajar Ridwan.FAJAR/Documents/Skilvul/git-basic/.git/
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul>cd git-basic
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git init.
+git: 'init.' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git init .
+Reinitialized existing Git repository in C:/Users/Fajar Ridwan.FAJAR/Documents/Skilvul/git-basic/.git/
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>copy con first.txt
+^Z
+        1 file(s) copied.
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        first.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git add first.txt
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git commit -m "adding first.txt"
+[master (root-commit) b05bba5] adding first.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 first.txt
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git log
+commit b05bba5bc6f40f46fcf845923967daebcd538399 (HEAD -> master)
+Author: Fajar7574 <16017337.fajar.ridwan@gmail.com>
+Date:   Tue Sep 21 21:53:29 2021 +0700
+
+    adding first.txt
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>copy con second.txt
+^Z
+        1 file(s) copied.
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        second.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git add second.txt
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git commit -m "adiing second.txt"
+[master ad33033] adiing second.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 second.txt
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>del first.txt
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git add second.txt
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git commit -m "Removing first.txt"
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    first.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git log
+commit ad33033044e5619173b3117ad1447ae8fa34a282 (HEAD -> master)
+Author: Fajar7574 <16017337.fajar.ridwan@gmail.com>
+Date:   Tue Sep 21 21:56:18 2021 +0700
+
+    adiing second.txt
+
+commit b05bba5bc6f40f46fcf845923967daebcd538399
+Author: Fajar7574 <16017337.fajar.ridwan@gmail.com>
+Date:   Tue Sep 21 21:53:29 2021 +0700
+
+    adding first.txt
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    first.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git add second.txt
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git commit -m "Removing First.txt"
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    first.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git commit -a "removing first.txt"
+fatal: paths 'removing first.txt ...' with -a does not make sense
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git add .
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git commit -m "removing first.txt"
+[master 28f9902] removing first.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 first.txt
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic>git log
+commit 28f99024c785f0b0f86e18ded1959c7ab7b24ebd (HEAD -> master)
+Author: Fajar7574 <16017337.fajar.ridwan@gmail.com>
+Date:   Tue Sep 21 22:02:47 2021 +0700
+
+    removing first.txt
+
+commit ad33033044e5619173b3117ad1447ae8fa34a282
+Author: Fajar7574 <16017337.fajar.ridwan@gmail.com>
+Date:   Tue Sep 21 21:56:18 2021 +0700
+
+    adiing second.txt
+
+commit b05bba5bc6f40f46fcf845923967daebcd538399
+Author: Fajar7574 <16017337.fajar.ridwan@gmail.com>
+Date:   Tue Sep 21 21:53:29 2021 +0700
+
+    adding first.txt
