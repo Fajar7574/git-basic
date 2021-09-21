@@ -1,0 +1,13 @@
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar-Ridwan-Sidik>copy con more-advance.txt
+1.GIT revert Perintah ini menciptakan komit baru yang membatalkan perubahan dari komit sebelumnya. Perintah ini menambahkan sejarah baru ke proyek (itu tidak mengubah sejarah yang ada). git reset Perintah ini dapat mengubah riwayat yang ada (dengan mengubah komit yang direferensikan cabang).
+-Jika komit telah dibuat di suatu tempat dalam sejarah proyek, dan Anda kemudian memutuskan bahwa komit itu salah dan seharusnya tidak dilakukan, maka git revert adalah alat untuk pekerjaan itu.
+-Jika Anda telah membuat komit, tetapi belum membagikannya dengan orang lain dan Anda memutuskan tidak menginginkannya, maka Anda dapat menggunakan git reset untuk menulis ulang sejarah sehingga seolah-olah Anda tidak pernah membuat komit itu .
+2.Merge  mengambil semua perubahan dalam satu cabang dan menggabungkannya ke cabang lain dalam satu komit.Rebase titik di mana akan bercabang untuk pindah ke titik awal yang baru.
+-Katakanlah kita telah membuat cabang untuk tujuan mengembangkan satu fitur. Saat kita ingin mengembalikan perubahan itu menjadi master, kita mungkin ingin merge
+- jika kita mulai melakukan pengembangan dan kemudian pengembang lain membuat perubahan yang tidak terkait. Kita mungkin ingin menarik lalu rebase untuk mendasarkan perubahan Anda dari versi saat ini dari repo.
+3.git stash pop membuang simpanan (paling atas, secara default) setelah menerapkannya, sedangkan git stash apply meninggalkannya di daftar simpanan untuk kemungkinan nanti digunakan kembali.Ini terjadi kecuali ada konflik setelah git stash pop.
+4. git commit --amend untuk membuat perubahan, git reset @~ untuk membuang komit terakhir, tetapi bukan perubahan pada file.
+^Z
+        1 file(s) copied.
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar-Ridwan-Sidik>
