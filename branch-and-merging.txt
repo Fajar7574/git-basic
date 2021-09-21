@@ -1,0 +1,23 @@
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar-Ridwan-Sidik>
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar-Ridwan-Sidik>
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar-Ridwan-Sidik>copy con brand-and-merging.txt
+1. Adalah salah satu cara untuk membuang suatu file atau perubahan yang tidak dilakukan atau tidak dilacak
+2. -d Hapus direktori yang tidak terlacak selain file yang tidak terlacak. Jika direktori yang tidak terlacak dikelola oleh repositori Git yang berbeda, direktori tersebut tidak dihapus secara default. -f  git clean akan menolak untuk menghapus file
+3.Git Branch
+4.Fast Forward pada masternya tidak memerlukan commit baru sedangkan rekusif perlu, fast forward linear history sedangkan rekursif 2 parent, fast forward git rebase sedangkan rekursif git merge-no-ff
+5.git branch ticket
+git reset --hard 3
+git checkout ticket
+6.alias grma='git ls-files --deleted -z | xargs -0 git rm'
+7.git branch
+8.Git diff Memberitahu kita secara mendetail apa saja perubahan yang terjadi di antara dua titik referensi Git
+9.git reset
+10.-Perhatikan daftar file yang konflik dengan: git status
+-Selesaikan konflik secara terpisah untuk setiap file dengan salah satu pendekatan
+-tinjau file yang siap untuk dikomit menggunakan: git status
+-lakukan perubahan dengan: git commit -a dan Push to remote seperti biasa
+Gabungkan konflik terjadi ketika perubahan dilakukan pada file pada saat yang bersamaan.
+^Z
+        1 file(s) copied.
+
+C:\Users\Fajar Ridwan.FAJAR\Documents\Skilvul\git-basic\Fajar-Ridwan-Sidik>
